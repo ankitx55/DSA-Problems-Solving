@@ -6,7 +6,7 @@ public class insertionSortDecreasing
     {
 //        Insertion sort in decreasing order
 
-        int[] arr = {5, 2, 4, 1, 3,6};
+        int[] arr = {25,46,45,47,48,999999999};
         int j = 0;
 
         for (int i = 1; i < arr.length; i++)
