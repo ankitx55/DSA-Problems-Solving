@@ -29,7 +29,6 @@ public class booleanArray {
         }
 
         return boolArr;
-        let Arraylist<shuffleArray>=arr;
         
     }
 

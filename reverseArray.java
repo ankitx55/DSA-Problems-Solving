@@ -14,6 +14,7 @@ public class reverseArray
 
         for(int i=0; i<n; i++)
         {
+            revArray[i]=arr[n-1-i];
 //            int num = arr[i];
 //            arr[i]=arr[n-i-1];
 //            arr[n-i-1]=num;
