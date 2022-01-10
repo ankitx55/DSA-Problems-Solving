@@ -1,42 +1,26 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class learningArrayList
 {
     public static void main(String[] args)
     {
-//        to initiate an arraylist;
+        ArrayList<Integer> arr1 = new ArrayList<Integer>();
+        arr1.add(5);
+        arr1.add(555);
+        arr1.add(11111);
+        arr1.set(2,55555);
+        System.out.println(arr1);
 
-//        ArrayList<Integer> myArrayList = new ArrayList<>();
+        int sizeOfArr1 = arr1.size();
+        Integer arr2[] = new Integer[arr1.size()];
+        arr2 = arr1.toArray(arr2);
 
-//        this is how you set the element on any index
-//        first parameter is the index and
-//        second one is the value at that index
+        System.out.println(Arrays.toString(arr2));
 
-//        myArrayList.set(0,1);
+        System.out.println(arr1.get(2));
 
 
-
-//        another way to instantiate arraylist
-
-        ArrayList<Integer> myArrayList2 =
-                new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
-//        System.out.println(myArrayList2);
-//        int length = myArrayList2.size();
-//        System.out.println(length);
-        List<Integer> str = reverseArray(myArrayList2);
-        System.out.println(str);
-
-    }
-
-    static List<Integer> reverseArray(List<Integer> myArrayList2)
-    {
-        ArrayList<Integer> arr = new ArrayList<>();
-        arr.set(0,222);
-        arr.
-
-        return arr;
     }
 }
 

@@ -10,12 +10,15 @@ public class revArrayToLimit
 
         for (int n = 0; n < T; n++)
         {
+//            taking input of the length of the array
             int l = inp.nextInt();
+
+//            taking input for number of elements to rotate
             int d = inp.nextInt();
 
             int array[] = new int[l];
 
-            //  taking input for the target array
+//            taking input for the target array
             for (int a = 0; a < l; a++)
             {
                 array[a] = inp.nextInt();
