@@ -11,6 +11,7 @@ public class learningArrayList
         arr1.add(11111);
         arr1.set(2,55555);
         System.out.println(arr1);
+        arr1.add(2,4444);
 
         int sizeOfArr1 = arr1.size();
         Integer arr2[] = new Integer[arr1.size()];
