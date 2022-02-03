@@ -18,14 +18,17 @@ public class TwoSum
     static int[] TwoSums(int[] nums, int target)
     {
 
-        for (int i = 0; i < nums.length; i++)
+        int i=0, j=0;
+        for ( i = 0; i < nums.length; i++)
         {
-            for (int j = i+1; j < nums.length; j++)
+            for (j = i+1; j < nums.length; j++)
             {
                 if (nums[i] + nums[j] == target)
                     return new int[]{i,j};
             }
         }
-        return new int[] {-1};
+        int[] arrrr = {i, j};
+        return arrrr;
+
     }
 }
