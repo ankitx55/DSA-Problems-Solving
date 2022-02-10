@@ -12,7 +12,7 @@ public class FinalValueofVariableAfterPerformingOperations {
         {
 //            in java we can not directly compare the string array element
 //            so the equal method is used at that time
-            
+
             if (operations[i].equals(cases[0]))
                 num++;
             else if(operations[i].equals(cases[1]))
