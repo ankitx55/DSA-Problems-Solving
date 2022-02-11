@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+
 public class RemoveElement {
     public static void main(String[] args) {
         int nums[] = {3,2,3,2,3,4,5,3,6,7,3,33,3,8,9,3,0};
