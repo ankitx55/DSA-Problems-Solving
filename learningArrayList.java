@@ -10,7 +10,10 @@ public class learningArrayList
         arr1.add(555);
         arr1.add(11111);
 //        arr1.set(2,55555);
+
         arr1.add(2,4444);
+//        this will put the initial 2nd index to
+//        iterate one place further away and put itself at 2nd place
 
         System.out.println(arr1);
 
