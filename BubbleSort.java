@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class BubbleSort {
     public static void main(String[] args) {
-        int arr[] = {5,4,3,2,1};
+        int arr[] = {5,4,3,2,1,88,-9,66,-5};
         int l=arr.length;
         BubbleSortAlgorithm(arr, l);
         System.out.println(Arrays.toString(arr));
