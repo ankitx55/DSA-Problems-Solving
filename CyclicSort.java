@@ -13,6 +13,7 @@ public class CyclicSort {
         for (int i = 0; i < arr.length; i++) {
             int correctIndex = arr[a]-1;
             if (arr[a] != arr[correctIndex]){
+//                swap
                 int temp =arr[a];
                 arr[a]=arr[correctIndex];
                 arr[correctIndex]=temp;
