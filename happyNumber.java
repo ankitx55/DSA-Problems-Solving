@@ -1,4 +1,7 @@
 public class happyNumber {
+
+//    https://leetcode.com/problems/happy-number/
+    
     public static void main(String[] args) {
         int n =19;
         boolean ans = isHappy(n);
