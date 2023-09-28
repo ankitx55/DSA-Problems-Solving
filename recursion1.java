@@ -2,6 +2,7 @@ public class recursion1 {
     public static void main(String[] args) {
         int x = 5;
         hiFunc(x);
+        fun2(x);
 
     }
 
@@ -12,6 +13,10 @@ public class recursion1 {
             x--;
         }
 
+    }
+
+    static void fun2(int x){
+        hiFunc(x-1);
     }
 
 }
