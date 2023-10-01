@@ -1,5 +1,8 @@
 import java.util.Arrays;
 
+
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
 public class removingDuplicates {
     public static void main(String[] args) {
 
@@ -8,7 +11,7 @@ public class removingDuplicates {
 
         removingFunc(array, count);
         System.out.println(Arrays.toString(array)+" "+count);
-        
+
     }
     static int removingFunc(int[] array, int count){
         for(int i=0; i<array.length; i++){
