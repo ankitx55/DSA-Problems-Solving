@@ -1,7 +1,7 @@
 
 public class secondLargestElement {
     public static void main(String[] args) {
-        int[] arr = {12,11,13,14,10,18};
+        int[] arr = {1,5,4,5};
         int ans = largest(arr);
         System.out.println(ans);
 
@@ -14,6 +14,9 @@ public class secondLargestElement {
             if(arr[i]>current){
                 second=current;
                 current=arr[i];
+            }
+            else if(arr[i]>second){
+                second=arr[i];
             }
         }
         return second;
