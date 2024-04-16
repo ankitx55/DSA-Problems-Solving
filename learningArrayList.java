@@ -5,6 +5,12 @@ public class learningArrayList
 {
     public static void main(String[] args)
     {
+//        Arrays
+        int[] array = new int[2];
+        array[1]=22;
+        System.out.println(Arrays.toString(array));
+
+
         ArrayList<Integer> arr1 = new ArrayList<Integer>();
         arr1.add(5);
         arr1.add(555);
