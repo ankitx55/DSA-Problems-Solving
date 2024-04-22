@@ -2,6 +2,10 @@ import java.util.Arrays;
 
 public class productExceptSelf {
     public static void main(String[] args) {
+//        49. Group Anagrams
+//        https://leetcode.com/problems/group-anagrams/description/
+
+
         int[] nums = {1,2,3,4,5,0,0};
         int[] answer = productExceptSelf(nums);
         System.out.println(Arrays.toString(answer));
